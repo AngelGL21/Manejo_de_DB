@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    background-color: #18191A;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+}
+.navbar {
+    background-color: #242526;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.logo img {
+    position: relative;
+    top: 6px;
+    width: 45px;
+    height: 45px;
+}
+
+.buscar input {
+    position: relative;
+    left: 15px;
+    width: 230px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: #3A3B3C;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-left: 170px;
+}
+.iconss {
+    display: flex;
+    gap: 10px;
+    margin-left: 165px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 46px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.icon:hover {
+    background-color: #303031;
+}
+
+.iconinicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 46px;
+    width: 120px;
+    border-bottom: solid 4px #0866FF;
+
+}
+
+.iconinicio i {
+    font-size: 33px;
+    color: #0866FF;
+}
+
+.icon i {
+    font-size: 33px;
+    color: #A7A9AE;
+}
+
+.iconn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    background-color: #3A3B3C;
+}
+
+.iconn:hover {
+    background-color: #4E4F50;
+}
+
+.iconn i, svg {
+    font-size: 25px;
+    color: #E4E6EB;
+}
+
+.sidebar {
+    width: 345px;
+    max-height: 680px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.sidebar:hover {
+    overflow-y: auto;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+    padding-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #303031;
+}
+
+.item i, img {
+    width: 40px;
+    height: 35px;
+    flex-shrink: 0;
+    font-size: 30px;
+}
+
+.item .text {
+    margin-left: 15px;
+    white-space: nowrap;
+    color: white;
+    font-size: 15px;
+}
+
+.container {
+    background-color: #333;
+    padding: 10px;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px; 
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    
+}
+
+.legal-info p {
+    margin-top: 5px;
+    font-size: 12px; 
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.publicaciones {
+    display: grid;
+    width: 1226px;
+    max-height: 684px;
+    overflow-y: auto;
+    padding-left: 180px;
+    overscroll-behavior-y: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #424242;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #686868;
+}
+
+.post {
+    background-color: #242526;
+    max-width: 610px;
+    height: 278px;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.selecUsuario {
+    display: grid;
+    gap: 10px;
+}
+
+.selecUsuario label {
+    color: white;
+    padding: 5px;
+}
+
+.selecUsuario input {
+    border: none;
+    max-width: 600px;
+    height: 70px;
+    color: white;
+    background: transparent;
+    font-size: 18px;
+}
+
+.titulo {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.userList {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+
+.userList option {
+    font-size: 14px;
+    background-color: transparent;
+    color: #333;
+    padding: 5px;
+    border: none; 
+}
+
+.publicarBtn {
+    background-color: #505151;
+    color: #fff;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+  
+.publicarBtn:hover {
+    background-color: #1659c3; 
+}
+  
+.postp .user_post {
+    background-color: #242526;
+    max-width: 610px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.titulop {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    text-align: start;
+    max-width: 610px;
+}
+
+.btnrefresh {
+    position: relative;
+    left: 290px;
+    top: 20px;
+    width: 160px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #505151;
+    color: #fff;
+    font-size: 15px; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.btnrefresh:hover{
+    background-color: #1659c3;
+}
